@@ -1,6 +1,6 @@
 FROM java:openjdk-8-jre-alpine
 
-ENV FLYWAY_VERSION 4.0.3
+ENV FLYWAY_VERSION 4.2.0
 ENV FLYWAY_SQL_DIR /sql
 
 RUN mkdir -p ${FLYWAY_SQL_DIR} /opt \
